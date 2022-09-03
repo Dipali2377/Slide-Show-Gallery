@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide Show Gallary</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="/document.js"></script>
+  </head>
+  <body>
+    <h2>Slide Show Gallery</h2>
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1/6</div>
+        <center>
+          <img
+            src="/Images/desktop.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">2/6</div>
+        <center>
+          <img
+            src="Images/cpu.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">3/6</div>
+        <center>
+          <img
+            src="/Images/ram.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">4/6</div>
+        <center>
+          <img
+            src="/Images/motherboard.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <div class="mySlides">
+        <center>
+          <div class="numbertext">5/6</div>
+          <img
+            src="/Images/keyboard.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <div class="mySlides">
+        <div class="numbertext">6/6</div>
+        <center>
+          <img
+            src="/Images/mouse.jpg"
+            style="width: 500px; height: 300px; padding-bottom: 15px"
+          />
+        </center>
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(+1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      <!-- for the image gallary-->
+      <div class="row">
+        <!-- the row contains all the coloumn -->
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/desktop.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(1)"
+            alt="Desktop"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/cpu.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(2)"
+            alt="CPU"
+            ;
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/ram.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(3)"
+            alt="Ram"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/motherboard.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(4)"
+            alt="Motherboard"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/keyboard.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(5)"
+            alt="keyboard"
+          />
+        </div>
+
+        <div class="column">
+          <img
+            class="demo cursor"
+            src="/Images/mouse.jpg"
+            style="width: 100%; height: 200px"
+            onclick="currentSlide(6)"
+            alt="Mouse"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
